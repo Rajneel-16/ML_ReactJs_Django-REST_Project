@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
         <Helmet>
-            <title>Home</title>
+            <title>Home1</title>
         </Helmet>
         <Hero />
         <CustomDivider />

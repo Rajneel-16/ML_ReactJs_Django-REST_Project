@@ -133,7 +133,7 @@ const handleDownload = () => {
     return (
         <>
             <Helmet>
-                <title>Form</title>
+                <title>Form1</title>
             </Helmet>
             <Box
                 backgroundColor={theme.palette.background.default}
@@ -290,7 +290,7 @@ const handleDownload = () => {
                                                         align='center'
                                                         gutterBottom
                                                     >
-                                                        The machine learning model has predicted the Cost of Insurance:<br /><br />
+                                                        Rajneel's machine learning model has predicted the Cost of Insurance:<br /><br />
                                                     </Typography>
                                                     <Typography
                                                         variant='h1'
