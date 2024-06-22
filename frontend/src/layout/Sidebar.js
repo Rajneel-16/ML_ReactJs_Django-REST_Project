@@ -81,7 +81,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                                      
                                 }}
                             >
-                                Insurance Cost Predictor
+                                Insurance Cost Predictor by Rajneel
                             </Typography>
                         </IconButton>
                     </Link>

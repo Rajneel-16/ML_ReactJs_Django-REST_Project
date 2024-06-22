@@ -65,7 +65,7 @@ const Header = ({ onSidebarMobileOpen }) => {
                                         textDecoration: 'none'
                                     }}
                                 >
-                                    Insurance Cost Predictor
+                                    Insurance Cost Predictor by Rajneel
                                 </Typography>
                             </IconButton>
                         </Box>
