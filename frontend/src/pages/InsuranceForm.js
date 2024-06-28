@@ -64,7 +64,7 @@ const InsuranceForm = () => {
             }
           });
           const data = await response.json();
-          setPrediction(data/80);
+          setPrediction(data*80);
           setSend(true);
           setResult(true);
           console.log(prediction)
