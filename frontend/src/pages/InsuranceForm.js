@@ -64,7 +64,7 @@ const InsuranceForm = () => {
             }
           });
           const data = await response.json();
-          setPrediction(data);
+          setPrediction(data/80);
           setSend(true);
           setResult(true);
           console.log(prediction)
@@ -162,7 +162,7 @@ const handleDownload = () => {
                                         severity='success'
                                         title='Success'
                                     >
-                                        Successfully sent the Detail to the machine learning model .
+                                        Details were sent to the machine learning model successfully.
                                     </CustomAlert>
                                 )}
                             </Grid>
@@ -303,7 +303,7 @@ const handleDownload = () => {
                                                                 fontSize: '50px'
                                                             }}
                                                         >
-                                                    { `$${prediction}` }
+                                                    { `INR ${prediction}` }
                                                         </span>
                                                     </Typography>
                                                 </ >
