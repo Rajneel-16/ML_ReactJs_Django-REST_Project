@@ -64,7 +64,7 @@ const InsuranceForm = () => {
             }
           });
           const data = await response.json();
-          setPrediction(data*80);
+          setPrediction(data); // for convert to INR, make a change here
           setSend(true);
           setResult(true);
           console.log(prediction)
