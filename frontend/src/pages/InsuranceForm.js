@@ -303,7 +303,7 @@ const handleDownload = () => {
                                                                 fontSize: '50px'
                                                             }}
                                                         >
-                                                    { `INR ${prediction}` }
+                                                    { `$ ${prediction}` }
                                                         </span>
                                                     </Typography>
                                                 </ >
