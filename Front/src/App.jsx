@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/insurance" element={<Insurance />} />
-        <Route path="/insurance" element={<Static />} />
+        <Route path="/static" element={<Static />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
 

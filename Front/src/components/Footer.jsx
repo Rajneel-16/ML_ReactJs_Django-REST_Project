@@ -1,13 +1,13 @@
-// Footer.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="bg-gray-800 text-white text-center py-4">
-            <p>&copy; {new Date().getFullYear()} MyApp. All rights reserved.</p>
+        <div className="bg-gray-900 rounded-full text-white text-center py-4">
+            <p>&copy; {new Date().getFullYear()} only Rajneel's. All rights reserved. its only rajneel's project</p>
             <p>
-                <a href="/privacy" className="hover:text-gray-400">Privacy Policy</a> |
-                <a href="/terms" className="hover:text-gray-400"> Terms of Service</a>
+                <Link to="/privacy" className="hover:text-gray-400">Privacy Policy</Link> |
+                <Link to="/terms" className="hover:text-gray-400"> Terms of Service</Link>
             </p>
         </div>
     );
