@@ -59,12 +59,12 @@ const Hero = () => {
                         <HeroButtons />
                     </Box>
                 </Grid>
-                <Grid 
-                    item 
-                    container 
-                    alignItems='left' 
-                    justifyContent='left' 
-                    xs={12} 
+                <Grid
+                    item
+                    container
+                    alignItems='left'
+                    justifyContent='left'
+                    xs={12}
                     md={6}
                 >
                     <Box
@@ -79,7 +79,15 @@ const Hero = () => {
                             }
                         }}
                     >
-                        <iframe width="200%" height="393"  src="https://www.youtube.com/embed/6azgSZVqhHI" title="19 02 2023 14 39 57 REC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe
+                            width="600"
+                            height="393"
+                            src="https://www.youtube.com/embed/bxNw9VB5Y_0"
+                            title="19 02 2023 14 39 57 REC"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        ></iframe>
                     </Box>
                 </Grid>
             </Grid>

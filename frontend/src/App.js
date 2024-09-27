@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Layout from './layout/Layout';
 import Home from './pages/Home';
 import InsuranceForm from './pages/InsuranceForm';
+import Static from './pages/Static';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/insurance-form' element={<InsuranceForm />} />
+            <Route exact path='/static' element={<Static />} />
 
           </Routes>
         </Layout>

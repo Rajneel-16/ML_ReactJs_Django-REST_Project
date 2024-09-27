@@ -20,7 +20,7 @@ const Footer = () => {
                 paddingTop='1px'
                 paddingBottom='1px'
                 // sticky footer - see four values below
-                position='fixed'
+                position=''
                 bottom='0'
                 left='0'
                 width='100%'
@@ -34,15 +34,15 @@ const Footer = () => {
                     <Grid container spacing={0}>
                         <Hidden mdDown>
                             <Grid container item xs={12} md={4}>
-                                 
+
                             </Grid>
                         </Hidden>
                         <Grid container item xs={12} md={4} justifyContent='center'>
                             <List>
                                 <ListItemButton>
-                                    <ListItemText 
+                                    <ListItemText
                                         primary={
-                                            <Typography 
+                                            <Typography
                                                 variant='body2'
                                                 color={theme.palette.text.secondary}
                                             >
@@ -54,7 +54,7 @@ const Footer = () => {
                             </List>
                         </Grid>
 
-                        
+
                     </Grid>
                 </Box>
             </Box>

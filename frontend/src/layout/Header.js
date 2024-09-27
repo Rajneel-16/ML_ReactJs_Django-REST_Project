@@ -27,14 +27,14 @@ const Header = ({ onSidebarMobileOpen }) => {
     return (
         <>
             <AppBar
-                elevation={5}
+                elevation={1}
                 sx={{
-                    backgroundColor: theme.palette.background.paper,
+                    backgroundColor: "#3B9B39",
                     color: theme.palette.text.secondary
                 }}
             >
                 <Toolbar sx={{ minHeight: 70 }}>
-                <IconButton
+                    <IconButton
                         color='inherit'
                         onClick={onSidebarMobileOpen}
                         sx={{ display: { md: 'none' } }}
@@ -53,12 +53,12 @@ const Header = ({ onSidebarMobileOpen }) => {
                                         marginRight: '15px'
                                     }}
                                 >
-                                    <FamilyRestroomIcon style={{fontSize:"40px"}}/>
+                                    <FamilyRestroomIcon style={{ fontSize: "40px" }} />
                                 </Avatar>
-                                <Typography 
-                                    variant='h3' 
-                                    component='div' 
-                                    sx={{ 
+                                <Typography
+                                    variant='h3'
+                                    component='div'
+                                    sx={{
                                         flexGrow: 1,
                                         color: theme.palette.text.primary,
                                         fontWeight: 'bold',
@@ -75,7 +75,7 @@ const Header = ({ onSidebarMobileOpen }) => {
                         <Button
                             component='a'
                             color='primary'
-                           
+
                             size='small'
                             variant='text'
                             sx={{
@@ -108,10 +108,32 @@ const Header = ({ onSidebarMobileOpen }) => {
                             }}
                         >
                             <DynamicFormIcon
-                                style={{ height: 23, width: 23 }} 
+                                style={{ height: 23, width: 23 }}
                             /> Get Prediction
                         </Button></Link>
-                    </Toolbar>
+
+                    <Link to='/static' style={{ textDecoration: 'none' }}>
+
+                        <Button
+                            component='a'
+                            color='primary'
+                            size='small'
+                            variant='text'
+                            sx={{
+                                color: theme.palette.text.secondary,
+                                fontSize: theme.typography.subtitle1,
+                                fontWeight: 'medium',
+                                mr: 2,
+                                '& svg': {
+                                    mr: 0.5
+                                },
+                            }}
+                        >
+                            <DynamicFormIcon
+                                style={{ height: 23, width: 23 }}
+                            /> Static
+                        </Button></Link>
+                </Toolbar>
                 <Divider />
             </AppBar>
         </>
