@@ -1,22 +1,43 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className="bg-gray-800 text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-xl font-bold">
-                    <Link to="/">Rajneel's App</Link>
+                    <NavLink to="/">Rajneel's App</NavLink>
                 </div>
                 <ul className="flex space-x-4">
                     <li>
-                        <Link to="/" className="hover:text-gray-400">Home</Link>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive ? "text-blue-400" : "hover:text-gray-400"
+                            }
+                        >
+                            Home
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/insurance" className="hover:text-gray-400">Insurance</Link>
+                        <NavLink
+                            to="/insurance"
+                            className={({ isActive }) =>
+                                isActive ? "text-blue-400" : "hover:text-gray-400"
+                            }
+                        >
+                            Insurance
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/static" className="hover:text-gray-400">Static</Link>
+                        <NavLink
+                            to="/static"
+                            className={({ isActive }) =>
+                                isActive ? "text-blue-400" : "hover:text-gray-400"
+                            }
+                        >
+                            Static
+                        </NavLink>
                     </li>
                 </ul>
             </div>

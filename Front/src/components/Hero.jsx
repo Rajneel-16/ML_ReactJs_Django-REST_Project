@@ -1,15 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 import InfoIcon from '@mui/icons-material/HelpOutline';
 
 
 const Hero = () => {
     return (
-        <div className="container w-[100%] min-h-screen flex justify-center items-center mx-auto bg-black">
-            <div className="flex justify-center  flex-1 w-full items-center m-1">
-                {/* Left Side Content */}
-                <div className="bg-gray-900 h-full m-5 py-10 rounded-full flex flex-col items-center flex-1">
+        <div className="container w-[100%] min-h-svh flex justify-center items-center mx-auto bg-gradient-to-r from-gray-500 via-gray-700 to-gray-800 p-8 ">
+            <div className="flex justify-center  flex-1 w-full items-center">
+
+                <motion.div
+                    initial={{ opacity: 0, scale: 0 }}
+                    transition={{ duration: 1 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    className="bg-gradient-to-l from-gray-800 via-gray-900 to-gray-950 h-full m-5 py-10 rounded-full flex flex-col items-center flex-1">
                     <h1 className="text-4xl text-white text-center m-8">
                         Fill the Family Detail
                     </h1>
@@ -24,9 +29,13 @@ const Hero = () => {
                             </button>
                         </Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="flex justify-center w-full flex-1">
+                <motion.div
+                    initial={{ y: 300, opacity: 0 }}
+                    transition={{ duration: 2 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    className="flex justify-center w-full flex-1">
                     <div className="relative w-[100%] h-0 m-5 pb-[56.25%]">
                         <iframe
                             className="absolute top-0 left-0 w-full h-full"
@@ -37,7 +46,7 @@ const Hero = () => {
                             allowFullScreen
                         ></iframe>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );

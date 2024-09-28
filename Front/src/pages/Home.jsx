@@ -7,8 +7,9 @@ function Home() {
     return (
         <div>
             <Layout>
-                <div className='bg-gray-900'>
+                <div className='bg-purple-400'>
                     <Hero />
+                    <hr className="h-2 w-full bg-black" />
                     <Description />
                 </div>
 
