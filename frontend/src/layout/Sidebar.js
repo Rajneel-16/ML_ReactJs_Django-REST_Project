@@ -81,7 +81,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                                      
                                 }}
                             >
-                                Insurance Cost Predictor by Rajneel
+                                Insurance Cost Prediction
                             </Typography>
                         </IconButton>
                     </Link>
@@ -131,7 +131,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                     >
                         <DynamicFormIcon
                             style={{ height: 23, width: 23 }} 
-                        /> GET PREDICTION
+                        /> Get Prediction
                     </Button></Link>
                     
                 </Box>

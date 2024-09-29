@@ -41,19 +41,19 @@ const Hero = () => {
                                 align='center'
                                 marginTop='30px'
                             >
-                                Fill the Family Detail
+                                Fill in your family details
                             </Typography>
                         </Box>
                         <Box marginBottom={3}>
                             <Typography
-                                variant='h4'
+                                variant='h3'
                                 color={theme.palette.text.secondary}
                                 align='center'
                                 paddingTop={3}
                                 paddingBottom={3}
                                 marginBottom='15px'
                             >
-                                Website will tell Insurance Cost of Family
+                                The Insurance Cost Predictor designed using Machine Learning technology calculates the life insurance cost for your family.
                             </Typography>
                         </Box>
                         <HeroButtons />
@@ -87,6 +87,10 @@ const Hero = () => {
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
+                            style={{
+                                border: '5px solid white', // Add border
+                                borderRadius: '30px'       // Curved edges
+                            }}
                         ></iframe>
                     </Box>
                 </Grid>

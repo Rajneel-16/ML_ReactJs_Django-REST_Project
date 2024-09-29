@@ -30,7 +30,7 @@ const HeroButtons = () => {
                     variant='contained'
                     color='primary'
                     size='large'
-                    startIcon={<InfoIcon />}
+                    // startIcon={<InfoIcon />}
                     fullWidth={isMd ? false : true}
                     disableElevation={true}
                     sx={{
@@ -45,7 +45,7 @@ const HeroButtons = () => {
                         }
                     }}
                 >
-                    Get Started
+                    Get Started!
                 </Button></Link>
                
             </Box>

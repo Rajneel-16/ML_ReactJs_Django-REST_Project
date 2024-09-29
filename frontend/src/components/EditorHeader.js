@@ -17,20 +17,20 @@ const EditorHeader = () => {
                 variant='h2'
                 color={theme.palette.text.primary}
             >
-                Form
+                Personal Details Form
             </Typography>
             <Box paddingTop={2}>
                 <Typography
                     variant='h5'
                     color={theme.palette.text.secondary}
                 >
-                    Fill the 
+                    Fill your
                     {' '}
                     <span style={{ color: green[600] }}>
-                    Detail 
+                    details
                     </span>
                     {' '}
-                     to get the Cost
+                     to get the Insurance Cost
                 </Typography>
             </Box>
         </>

@@ -133,7 +133,7 @@ const handleDownload = () => {
     return (
         <>
             <Helmet>
-                <title>Form1</title>
+                <title>{/*Form Page*/}</title>
             </Helmet>
             <Box
                 backgroundColor={theme.palette.background.default}
@@ -185,7 +185,7 @@ const handleDownload = () => {
                                             </Grid>
                                             <Grid item xs={12}>
                                                 <TextField
-                                                    label="BMI"
+                                                    label="Body Mass Index (BMI)"
                                                     type="number"
                                                     name="bmi"
                                                     value={formData.bmi}
@@ -208,13 +208,9 @@ const handleDownload = () => {
                                                     <MenuItem value="1">non-Smoker</MenuItem>
                                                 </TextField>
                                             </Grid>
-                                         
-                                     
-                                
-                                 
                                             <Grid item xs={12}>
                                                 <TextField
-                                                    label="Sex"
+                                                    label="Gender"
                                                     select
                                                     name="sex"
                                                     value={formData.sex}
@@ -228,7 +224,7 @@ const handleDownload = () => {
                                             </Grid>
                                             <Grid item xs={12}>
                                                 <TextField
-                                                    label="Children"
+                                                    label="Number of children"
                                                     type="number"
                                                     name="children"
                                                     value={formData.children}
@@ -239,7 +235,7 @@ const handleDownload = () => {
                                             </Grid>
                                             <Grid item xs={12}>
                                                 <TextField
-                                                    label="Region"
+                                                    label="Region of residence"
                                                     select
                                                     name="region"
                                                     value={formData.region}
@@ -254,10 +250,6 @@ const handleDownload = () => {
                                                 </TextField>
                                             </Grid>
                                         </Grid>
-
-
-                                        
-                                    
                                 </CardContent>
                             </Card>
                         </Grid>
@@ -290,7 +282,7 @@ const handleDownload = () => {
                                                         align='center'
                                                         gutterBottom
                                                     >
-                                                        Rajneel's machine learning model has predicted the Cost of Insurance:<br /><br />
+                                                        The Machine Learning Model has predicted the Cost of Insurance as:<br /><br />
                                                     </Typography>
                                                     <Typography
                                                         variant='h1'

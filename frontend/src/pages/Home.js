@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
         <Helmet>
-            <title>Home1</title>
+            <title>{/*Home Page*/}</title>
         </Helmet>
         <Hero />
         <CustomDivider />

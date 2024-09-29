@@ -46,7 +46,7 @@ const Footer = () => {
                                                 variant='body2'
                                                 color={theme.palette.text.secondary}
                                             >
-                                                Copyright &copy; {new Date().getFullYear()} Rajneel Finance Bank.
+                                                Copyright &copy; {new Date().getFullYear()} Mumbai Finance Bank | All Rights Reserved
                                             </Typography>
                                         }
                                     />

@@ -65,7 +65,7 @@ const Header = ({ onSidebarMobileOpen }) => {
                                         textDecoration: 'none'
                                     }}
                                 >
-                                    Insurance Cost Predictor by Rajneel
+                                    Predict My Insurance
                                 </Typography>
                             </IconButton>
                         </Box>
@@ -77,11 +77,12 @@ const Header = ({ onSidebarMobileOpen }) => {
                             color='primary'
 
                             size='small'
-                            variant='text'
+                            variant='h3'
                             sx={{
-                                color: theme.palette.text.secondary,
-                                fontSize: theme.typography.subtitle1,
-                                fontWeight: 'medium',
+                                color: 'white',
+                                // fontSize: theme.typography.subtitle1,
+                                fontSize: "20px",
+                                fontWeight: 'bold',
                                 mr: 2,
                                 '& svg': {
                                     mr: 0.5
@@ -98,9 +99,10 @@ const Header = ({ onSidebarMobileOpen }) => {
                             size='small'
                             variant='text'
                             sx={{
-                                color: theme.palette.text.secondary,
-                                fontSize: theme.typography.subtitle1,
-                                fontWeight: 'medium',
+                                color: 'white',
+                                // fontSize: theme.typography.subtitle1,
+                                fontSize: "20px",
+                                fontWeight: 'bold',
                                 mr: 2,
                                 '& svg': {
                                     mr: 0.5
@@ -111,8 +113,9 @@ const Header = ({ onSidebarMobileOpen }) => {
                                 style={{ height: 23, width: 23 }}
                             /> Get Prediction
                         </Button></Link>
-
-                    <Link to='/static' style={{ textDecoration: 'none' }}>
+                    
+                   {/*
+                   <Link to='/static' style={{ textDecoration: 'none' }}>
 
                         <Button
                             component='a'
@@ -120,9 +123,10 @@ const Header = ({ onSidebarMobileOpen }) => {
                             size='small'
                             variant='text'
                             sx={{
-                                color: theme.palette.text.secondary,
-                                fontSize: theme.typography.subtitle1,
-                                fontWeight: 'medium',
+                                color: 'white',
+                                // fontSize: theme.typography.subtitle1,
+                                fontSize: "20px",
+                                fontWeight: 'bold',
                                 mr: 2,
                                 '& svg': {
                                     mr: 0.5
@@ -131,8 +135,10 @@ const Header = ({ onSidebarMobileOpen }) => {
                         >
                             <DynamicFormIcon
                                 style={{ height: 23, width: 23 }}
-                            /> Static
+                            /> Static Page
                         </Button></Link>
+                    */}
+                        
                 </Toolbar>
                 <Divider />
             </AppBar>

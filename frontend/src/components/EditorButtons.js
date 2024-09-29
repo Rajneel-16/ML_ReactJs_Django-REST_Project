@@ -42,7 +42,7 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
                         }
                     }}
                 >
-                    Get Data
+                    Get Prediction
                 </Button>
                 
                 <Box
@@ -70,7 +70,7 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
                             }
                         }}
                     >
-                       Download 
+                       Download Prediction
                     </Button>
                 </Box>
             </Box>

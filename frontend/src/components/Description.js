@@ -58,26 +58,26 @@ const Description = () => {
                         marginBottom='15px'
                         data-aos='fade-up'
                     >
-                        A step-by-step guide on how to use the app
+                        Here's a step-by-step guide on how to use the app...
                     </Typography>
                     <Grid container spacing={4} data-aos='fade-up'>
                         <DescriptionItem 
                             color='rgb(31, 102, 239)' 
                             icon={EditIcon}
                             title='Fill the Form'
-                            subtitle='First, fill the form to best of your knowledge show it can give you estimated insurance cost precisely.'
+                            subtitle='First, fill out the form to the best of your knowledge so it can provide you with a precise estimate of the insurance cost.'
                         />
                         <DescriptionItem 
                             color={theme.palette.error.dark} 
                             icon={ShareSquareIcon}
-                            title='Send the Data for Prediction'
-                            subtitle='Click on Result button to know the prediction of model.'
+                            title='Submit for Prediction'
+                            subtitle='Click on Result button to know the prediction given by the model.'
                         />           
                         <DescriptionItem 
                             color={theme.palette.primary.main} 
                             icon={LaptopCodeIcon}
                             title='Get the Prediction Result'
-                            subtitle='Once you have sent your data to the machine learning model, the model  returns the cost of Insurance for whole family.'
+                            subtitle='Once you have submitted your data to the machine learning model, the model  returns the cost of Insurance for family.'
                         />
                         <DescriptionItem 
                             color={theme.palette.warning.dark}
